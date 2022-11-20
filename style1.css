@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.hero-container {
+  min-height: 420px;
+}
+.left-container {
+  background-color: #142562;
+}
+
+.left-container .logo {
+  width: 100%;
+  padding: 20px;
+}
+
+.description {
+  margin: 40px 60px;
+  display: flex;
+}
+.description h1 {
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.right-container .heading {
+  max-width: 100%;
+  margin: 20px auto;
+}
+.right-container .heading h2 {
+  font-weight: 600;
+  color: #000;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  text-align: center;
+}
